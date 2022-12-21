@@ -1,0 +1,219 @@
+.altura{
+    height: 40px;
+}
+.nav-style{
+    background-color: #060830ff;
+}
+.altura-logo{
+    height: 100px; color: rgb(255, 0, 128);
+}
+.color-section{
+    color: white;
+}
+.contact-us{
+    padding-left: 5%;
+}
+.text-area{
+    resize: none;
+}
+.color-negro{
+    color: black;
+}
+.automatico{
+    height: auto;
+}
+.mapa{
+    border:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    font-family: Europa;
+    padding: 0%;
+    margin: 0%;
+  }
+  header{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    width:100%;
+    z-index: 1000;
+    opacity: 85%;
+  }
+  .menu {
+      font-size: 16px;
+  }
+  .bg-guia-compra {
+      border-radius: 8px;
+      background-color: #ff0080;
+  }
+  .bg-guia-compra:hover{
+      background-color: #a8ecdc;  
+  }
+  a:hover{
+      text-decoration: none;
+
+  }
+  .dropdown-item:hover {
+      background-color: #ff0080;
+  }
+ .letra:hover{
+      color: #ff0080 !important;
+  }
+  .color:hover{
+      color: black !important;
+  }
+  .redes{
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2%;
+  }
+  .icono{
+    padding-left: 0.5%;
+  }
+
+  .rosa{
+    color: #ff0080;
+  }
+  .rosa:hover{
+    color: #a8ecdc;
+  }
+  .sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1000;  
+  }
+   ul {
+    list-style: none;
+  }
+  .navbar{
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+  .container-fluid{
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+  .idioma{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .area{
+    margin: 10%;
+  }
+  .todo { 
+    position: relative; 
+    height: 200%;
+    width: auto ;
+    background-image: url(./marshmello-performing-at-music-festival-5k-if-2560x1440.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+    
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .todo::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.2);
+  }
+  section{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .fa{
+    font-size: 22px;
+  }
+  .input-group-prepend span {
+    background-color: #ff0080;
+  }
+  .login_btn {
+    background-color: #ff0080;
+  }
+  .login_btn:hover {
+    background-color: #a8ecdc;
+    color: black !important;
+  }
+  .registro{
+    padding-left: 5%;
+  }
+
+  .btn-primary {
+    background-color: #ff0080;
+    border-color: transparent;
+  }
+  .btn-primary:hover {
+    background-color: rgb(168, 236, 220);
+    border-color: transparent;
+    color: black !important;
+  }
+  .contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+  }
+
+  .iconos{
+    display: flex;
+    justify-content: space-around;
+  }
+  .tamaño{
+    font-size: 42px;
+    color: #ff0080;
+  }
+  .contancto-flex{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .boton-enviar{
+    background-color: #ff0080;
+  }
+
+  .about-us{
+    background-image: url(./tr.jpg);
+    height: 150%;
+    width: auto;
+    background-repeat: no-repeat;
+    position: relative; 
+
+  }
+  .about-us::before {
+      content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.702);
+  }
+  .blanco{
+    background-color: rgba(255, 255, 255, 0.87) !important;
+  }
